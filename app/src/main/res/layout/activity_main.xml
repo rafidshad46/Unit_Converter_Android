@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+
+    <Button
+        android:id="@+id/temp"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="29dp"
+        android:background="@drawable/button4"
+        android:text="Temperature"
+        android:onClick="tempActivity"
+        android:textAllCaps="false"
+        android:fontFamily="@font/audiowide"
+        app:layout_constraintBottom_toTopOf="@+id/length"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/time" />
+
+    <Button
+        android:id="@+id/length"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="170dp"
+        android:background="@drawable/button2"
+        android:text="Length"
+        android:onClick="lengthActivity"
+        android:fontFamily="@font/audiowide"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/temp" />
+
+    <Button
+        android:id="@+id/time"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="29dp"
+        android:background="@drawable/button3"
+        android:text="Time"
+        android:onClick="timeActivity"
+        android:textAllCaps="false"
+        android:fontFamily="@font/audiowide"
+        app:layout_constraintBottom_toTopOf="@+id/temp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/freq" />
+
+    <Button
+        android:id="@+id/freq"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="29dp"
+        android:background="@drawable/button1"
+        android:text="Frequency"
+        android:onClick="freqActivity"
+        android:textAllCaps="false"
+        android:fontFamily="@font/audiowide"
+        app:layout_constraintBottom_toTopOf="@+id/time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="95dp"
+        android:fontFamily="@font/audiowide"
+        android:text="Unit Converter"
+        android:textColor="#FFAB00"
+        android:textSize="42sp"
+        app:layout_constraintBottom_toTopOf="@+id/freq"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.162"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/audiowide"
+        android:text="Made by Ishmam Ruhan"
+        android:textColor="#74FFAC03"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/length" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

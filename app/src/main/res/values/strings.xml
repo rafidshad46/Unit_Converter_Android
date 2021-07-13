@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Converter</string>
+
+    <string-array name="frequencies">
+        <item>Hertz</item>
+        <item>Kilohertz</item>
+        <item>Megahertz</item>
+        <item>Gigahertz</item>
+    </string-array>
+
+    <string-array name="times">
+        <item>Milisecond</item>
+        <item>Second</item>
+        <item>Minute</item>
+        <item>Hour</item>
+        <item>Day</item>
+    </string-array>
+
+    <string-array name="temps">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+
+    <string-array name="lengths">
+        <item>Kilometer</item>
+        <item>Meter</item>
+        <item>Centimeter</item>
+        <item>Foot</item>
+        <item>Inch</item>
+    </string-array>
+
+</resources>
